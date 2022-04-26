@@ -17,6 +17,13 @@ header {
   width: 111px;
   height: 74px;
 }
+.container-box {
+  display:flex;
+  justify-content: center;
+  width: 320px;
+  height: auto; 
+
+}
 
 .menu-ham {
   display: flex;
@@ -48,7 +55,8 @@ header {
 }
 
 p {
-  display: flex;
+  margin-top: 16px;
+  margin-bottom: 20px;
 }
 
 .intro-text {
@@ -95,7 +103,7 @@ button {
   align-items: center;
   align-content: center;
 }
-
+  
 .art {
   background-image: url("images/rectangle-section-1.svg");
   background-repeat: no-repeat;
@@ -103,4 +111,96 @@ button {
   vertical-align: bottom;
   width: 320px;
   height: 160px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+}
+h2 {
+  display: flex;
+  margin-left: 16px;
+  margin-top: 30px;
+  margin-bottom: 32px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 50px;
+  font-weight: 500px;
+  line-height: 50px;
+  color: #1a2236;
+  stroke: black 1px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: left;
+}
+
+h3 {
+  font-family: Poppins, serif;
+  color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  padding-top: 1rem;
+  padding-left: 20px;
+}
+.skills-box{
+  width: 320px;
+  height: 156px;
+  background-color: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+ 
+
+}
+.skills-style{
+  background: #98DEDE;
+  height: 20px;
+  width: 70px;
+  margin: 10px;
+}
+
+ul {
+    width: 320px;
+    height: 156px;
+  }
+  
+
+
+li {
+ font-family: 'Poppins', serif;
+ font-size: 10.33px;
+ font-weight: 300;
+ line-height: 8.27px;
+ letter-spacing: 0em;
+ text-align: left;
+ color: black;
+ 
+}
+
+.project-name{
+  font-family: 'Poppins', serif ;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-top: 16px;
+}
+.project-btn{
+  align-content: center;
+  
+}
+.button-project{
+  color:#1a2236;
+  background-color: #98DEDE;
+  width: 74px;
+  height: 20px; 
+  font-family: 'Poppins', serif;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 8px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 20px;
 }
