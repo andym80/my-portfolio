@@ -554,9 +554,6 @@ li.fill-messagge{
 }
 
 .resume-box{
-  display:grid;
-  grid-row:8;
-  grid-column: 13;
   width: 320px;
   height: 150px;
   background: #1a2236;
@@ -567,6 +564,11 @@ li.fill-messagge{
   padding-top: 32px;
 }
 
+.social-media-icons{
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
 
 
 
